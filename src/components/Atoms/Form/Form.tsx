@@ -51,7 +51,7 @@ function Form() {
                <div className="container">
                     <input type="hidden" name="form-name" value="feedback" />
                     <div className="contact-form-container">
-                         <form className="contact-form" onSubmit={handleFormSubmit} name="contact" data-netlify="true" method="post">
+                         <form className="contact-form" onSubmit={handleFormSubmit} name="feedback">
                               <input type="hidden" name="form-name" value="contact" />
                               <span className="form-header">Contact us</span>
                               <input type="text" className="email-input" placeholder="Name" id="name" name="name" required />
