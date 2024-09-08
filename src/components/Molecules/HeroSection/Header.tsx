@@ -20,7 +20,7 @@ function Header() {
                               <h1>
                                    i&apos;m <span style={{ color: "#ff4c60" }}>Vivek </span>
                               </h1>
-                              <h4>Front-end & Android Developer</h4>
+                              <h4>Software Engineer from India</h4>
                               <a href="/contact" className="btn hero-btn">
                                    hire me
                               </a>
