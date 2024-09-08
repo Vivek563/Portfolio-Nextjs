@@ -8,7 +8,6 @@ const LottieAnimation = () => {
           const loadLottie = async () => {
                if (containerRef.current) {
                     const animation: AnimationItem = lottie.loadAnimation({
-                         // Assign type to animation
                          container: containerRef.current,
                          renderer: "svg",
                          loop: true,

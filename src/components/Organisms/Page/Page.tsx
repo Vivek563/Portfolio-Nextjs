@@ -1,6 +1,5 @@
 import About from "@/components/Molecules/About/About";
 import Animation from "@/components/Molecules/Animation/Animation";
-import LottieAnimation from "@/components/Molecules/AnimationLottie/AnimationLottie";
 import Connect from "@/components/Molecules/Connect/Connect";
 import Header from "@/components/Molecules/HeroSection/Header";
 import Projects from "@/components/Molecules/Projects/Projects";
@@ -13,7 +12,7 @@ function Page() {
                <Header />
                <About />
                <Skills />
-               <LottieAnimation />
+               {/* <LottieAnimation /> */}
                {/* <Services /> */}
                <Timeline />
                <Projects />

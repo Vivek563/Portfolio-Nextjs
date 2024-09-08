@@ -1,5 +1,3 @@
-// Sidebar.tsx
-
 interface SidebarProps {
      isSidebarOpen: boolean;
      closeSidebar: () => void;

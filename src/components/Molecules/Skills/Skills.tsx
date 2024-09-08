@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+import LottieAnimation from "../AnimationLottie/AnimationLottie";
 
+/* eslint-disable @next/next/no-img-element */
 function Skills() {
      return (
           <>
@@ -66,7 +67,8 @@ function Skills() {
                               </div>
                          </div>
                          <div className="skill-image-right">
-                              <img src="/boo.svg" alt="boo" />
+                              {/* <img src="/boo.svg" alt="boo" /> */}
+                              <LottieAnimation />
                          </div>
                     </div>
                </section>
